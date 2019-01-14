@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+* {
+	margin:0px;
+}
+
+html, body {
+	margin: 0 auto
+	background-color: #403327;
+	background: #403327 url(images/tile.gif) repeat-y fixed top center}
+	background-position: center top;
+	text-align: center;
+}
+
+#holder {
+}
+
+#center_column {
+	background-color: #6c4c2b;
+	background-image: url(images/background.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 205px;
+	width: 753px;
+}
+
+#laurels{
+	position: relative;
+	display: block;
+	margin-top: -175px;
+	padding-right: 155px;
+}
+
+#top {
+	align:center;
+	margin:0px;
+	padding:0px;
+}
+
+#left {
+	width: 455px;
+	display: inline;
+	float: left;
+	margin: 0px;
+	margin-left: 15px !important;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#left h1 {
+	color: #261e17;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#left h2 {
+	color: #261e17;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 5px;
+}
+
+#onecolumn {
+	width: 660px;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#onecolumn h1 {
+	color: #261e17;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#onecolumn h2 {
+	color: #261e17;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 5px;
+}
+
+span {
+	color: #261e17;
+	padding-top: 15px;
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#wrap img {
+	color: #261e17;
+	padding-right: 15px;
+	padding-bottom: 8px;
+	display: inline;
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#wrap h2 {
+	color: #261e17;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#wrap span{
+	color: #261e17;
+	display: inline;
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a:link {
+	color: #b86628;
+}
+
+a:visited {
+}
+
+a:active {
+	color: #b86628;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#right {
+	display: inline;
+	float: right;
+	margin: 0px auto;
+	padding-right: 15px;
+	padding-top: 17px
+}
+
+ul.vert-one {
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:block;
+	font:normal 10px Georgia, Times, serif;
+	line-height:165%;
+	width:180px;
+}
+ul.vert-one li {
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #fff;
+}
+ul.vert-one li a {
+	display:block;
+	text-decoration:none;
+	color:#584533;
+	background:#e3d5c7;
+	padding:5px 0 5px 10px;
+	width:170px;
+}
+ul.vert-one li a:hover {
+	color:#9f8c7a;
+	background:#ede6de;
+}
+ul.vert-one li a.current,ul.vert-one li a.current:hover {
+	color:#fff;
+	background:#b86628;
+}
+
+#fade {
+	height: 106px;
+	width: 180px;
+}
+
+#content{
+	height: 550px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	width: 703px;
+	display: block;
+}
+
+#content ul#saturday {
+	margin: 0 auto;
+	padding: 0px;
+	list-style-type: none;
+	width: auto;
+	position: relative;
+	display: block;
+	height: 31px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: normal;
+	background: transparent url("images/bgOFF.gif") repeat-x top left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content ul#saturday li {
+	display: block;
+	float: left;
+	margin: 0;
+	pading: 0;
+}
+
+ul#saturday li a {
+	color: #FFF;
+	display: block;
+	float: left;
+	text-decoration: none;
+	margin: 0px;
+	padding: 9px 13px 0px 13px;
+	height: 21px;
+	background: transparent url("images/bgDIVIDER.gif") no-repeat top right;
+}
+
+ul#saturday li a:hover {
+	color: #FFF;
+	background:transparent url("images/bgHOVER.gif") no-repeat top right;
+}
+
+ul#saturday li a.current,ul#saturday li a.current:hover {
+	color: #fff;
+	background: transparent url("images/bgON.gif") no-repeat top right;
+}
+
+ul#saturday li a.last {
+	background:transparent url("images/bgOFF.gif") repeat-x top left;
+}
+
+ul#saturday li a.last:hover {
+	background:transparent url("images/bgHOVERLAST.gif") no-repeat top right;
+}
+
+ul#saturday li a.laston,ul#saturday li a.laston:hover {
+	color: #fff;
+	background:transparent url("images/bgONLAST.gif") no-repeat top right;
+}
+
+#awards {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#awards li ul li {
+	list-style-type: none;
+	padding: 0px 0px 8px 0px;
+}
+
+#nominations {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#nominations li ul li {
+	list-style-type: none;
+	padding: 0px 0px 8px 0px;
+}
+
+#upcoming {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#upcoming li {
+	list-style-type: none;
+	padding: 0px 0px 8px 0px;
+}
+
+#complete {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#complete li {
+	list-style-type: none;
+	padding: 0px 0px 8px 0px;
+}
+
+#contact {
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+}
